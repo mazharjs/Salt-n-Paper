@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saltn-pepper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- main div container start  -->
+    <div class="container">
+     <!-- main header start -->
+     <!-- main header End -->
+        <div class="header d-flex justify-evenly mt">
+            <div>
+              <img src="accetes/home/logo.webp" alt="logo">
+            </div>
+            <nav class="navbar">
+                <ul class="d-flex  ul-list gap">
+                    <li class="d-flex"><a href="index.html">Home</a></li>
+                    <li class="d-flex"><a href="index3.html">About us</a></li>
+                    <li class="navli"><a href="index4.html">Publications</a></li>
+                    <li class="navli"><a href="index5.html">Feedback</a></li>
+                    <li class="navli"><a href="index6.html">Get a Frenchise</a></li>
+                    <li class="navli"><a href="index7.html"><i class="fa-regular fa-user"></i></a></li>
+                    <li class="navli"><a href="index8.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="navli"><a href="index9.html"><button class="navbar-btn">Order Online<i class="fa-solid fa-arrow-right navarrow"></i></button></a></li>
+                </ul>
+            </nav>
+        </div>
+       <hr class="hr1">
+        <!-- main header End -->
+        <!-- main  login section area start  -->
+
+        <div class=" check_out_login_section">
+            <div class=" check_out_login_signup_container">
+                <div class=" check_out_option_form_box_login">
+                    <div class=" check_out_login_signup_box">
+                      
+                        <div class="check_out_option_form_box_two">
+                            <div class=" check_out_login_content">
+                                <div class="check_out_option_form_box_two_content_header">
+                                    <h4>Login to your Account</h4>
+                                </div>
+                                <form method="post" action="https://restaurant.saltnpepper.com.pk/signup/login" id="login" novalidate="novalidate">
+                                    <div class="check_out_option_form_box_two_content_signin_form">
+                                        <div class="check_out_option_box_two_signin_form_input_fields_main">
+                                            <div class="check_out_option_box_two_signin_form_input_fields">
+                                                <div class="check_out_option_box_two_signin_form_input_fields_data">
+                                                  <span>Email</span>
+                                                  <input type="email" name="user_email" class="login_email" placeholder="Enter your email" value="">
+                                                </div>
+                                                <i class="fal fa-envelope"></i>
+                                            </div>
+                                          <label for="user_email" generated="true" class="error"></label>
+                                        </div>
+                                        <div class="check_out_option_box_two_signin_form_input_fields_main">
+                                          <div class="check_out_option_box_two_signin_form_input_fields">
+                                            <div class="check_out_option_box_two_signin_form_input_fields_data">
+                                              <span>Password</span>
+                                              <input type="password" id="user_pass" name="user_pass" placeholder="Enter password" value="">
+                                            </div>
+                                            <i class="far fa-eye-slash" id="eye" onclick="togglePassword()">
+                                            </i>
+                                          </div>
+                                          <label for="user_pass" generated="true" class="error"></label>
+                                        </div>
+                                        <div class="check_out_option_box_two_signin_form_signin_btn">
+                                          <input type="submit" value="Login" class="">
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="check_out_option_box_two_form_divider">
+                                    <a type="button" data-toggle="modal" data-target="#account_forget_password_popup">Forgot password?</a>
+                                    <div class="form_divider_lines"><small></small><span>or</span><small></small></div>
+                                </div>
+                                <div class="check_out_option_form_box_two_google_signin_btn">
+                                <a href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;access_type=online&amp;client_id=1028184743053-4lrvg18gk3k2ujaulq9if630ge7ttp2t.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Ftossdown.site%2Fsocial%2Fgoogle_auth&amp;state=http%3A%2F%2Frestaurant.saltnpepper.com.pk&amp;scope=email%20profile&amp;approval_prompt=auto"><img src="https://static.tossdown.com/site/images/da735dea22fd7d2bad4c36e8ef40a1d0_1640333204.png"><span>Sign in with Google</span></a>                  </div>
+                                <div class="check_out_option_form_box_two_facebook_signin_btn">
+                                <a style="" href="https://www.facebook.com/v4.0/dialog/oauth?client_id=2512474565621396&amp;state=http%3A%2F%2Frestaurant.saltnpepper.com.pk&amp;response_type=code&amp;sdk=php-sdk-5.7.0&amp;redirect_uri=https%3A%2F%2Ftossdown.site%2Fsocial%2Ffacebook_auth&amp;scope=email"><i class="fab fa-facebook-f"></i><span>Login with Facebook</span></a>                  </div>
+                            </div>
+                        </div>
+                                                    
+                    </div>
+        
+                    <div class="check_out_option_form_box_two_account_btn">
+                                  
+                     <p>Don't have an Account? <a href="https://restaurant.saltnpepper.com.pk/create-your-account"> Create account</a></p>
+                    </div>
+                          
+                </div>
+            </div>
+        </div>
+
+
+        <!-- main  login section area End  -->
+        
+
+        <footer>
+            <div class="container5">
+                <div class="row d-flex justify-center">
+                    <div class="footer-img ">
+                        <div class="footer-col">
+                            <img src="accetes/home/logo.webp" alt="">
+                        </div>
+                        <div class="footer-col">
+                            <p class="para-5">The Salt’n Pepper Restaurants are an example of gracious <br>
+                             dinning,
+                             outstanding service, extraordinary classic <br> and contemporary cuisine.
+                             The restaurants have become the <br> ultimate  dinning destinations in Lahore. 
+                             From <br> family occasions to business dinner and moments of <br> the heart,
+                             this place is where unforgettable memories are made. <br>
+                            </p>
+                            <ul class="ul d-flex"> <br>
+                                <li><a href="treams-conditions"></a>Terms & Conditions</li>
+                                <li><a href="privacy-policy">Pravicy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_detail_box_heading accordion modtitle d-flex">
+                            <h3 class="footer_collapse_icons">Site Links</h3>
+                        </div>
+                        <div class="modcontent panel d-flex">
+                            <ul class="footer_detail_box_content_list d-flex">
+                               <li class="d-flex"><a href="/">Home</a></li>
+                               <li class="d-flex"><a href="/about-us">About us</a></li>
+                               <li class="d-flex"><a href="/menu/deals">Deals</a></li>
+                               <li class="d-flex"><a href="/photo-gallery">Photos</a></li>
+                               <li class="d-flex"><a href="/publications">Publications</a></li>
+                               <li class="d-flex"><a href="/franchise">Get a Franchise</a></li>
+                               <li class="d-flex"><a href="/feedback">Feedback</a></li>
+                            </ul>
+                        </div>                    
+                        
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_detail_box_heading accordion modtitle d-flex">
+                            <h3 class="footer_collapse_icons">Contact Us</h3>
+                        </div>
+                        <div class="modcontent panel">
+                            <ul class="footer_contact_list  ">
+                             <li><a href="tel:+92 42 358 509 31">+92 42 358 509 31</a></li>
+                             <li><a href="tel:+92 42 358 509 30">+92 42 358 509 30</a></li>
+                             <li><a href="tel:+92 42 111 100 678">+92 42 111 100 678</a></li>
+                             <li><a href="tel:03 111 444 610">+92 03 111 444 610</a></li>
+                             <li><a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></li>
+                             <li><a>23-Usman Block,<br>
+                                 New GardenTown,<br>
+                                  Lahore, Pakistan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_data_box_detail hide-responsive">
+                            <div class="footer_detail_box_two">
+                              <div class="footer_detail_box_heading accordion modtitle d-flex">
+                                <h3 class="footer_collapse_icons">Follow Us</h3>
+                              </div>
+                             <div class="modcontent panel accordion modtitle" style="display: none;">
+                                <div class="footer_socail_links"><a href="https://www.facebook.com/TheSaltnPepperRestaurants/" target="blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> <a href="https://www.instagram.com/saltnpepper_official/" target="blank"><i class="fab fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/snprestaurant" target="blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></div>
+                                <div class="googles-links-holder">
+                                  <ul>
+                                  <li><a target="_blank" class="app-store" rel="noopener" href="https://apps.apple.com/tr/app/saltn-pepper/id1631088988"><img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp"></a></li>
+                                  <li><a target="_blank" class="app-ios" rel="noopener" href="https://play.google.com/store/apps/details?id=com.hifood.saltnpepperpk&amp;hl=en_US&amp;gl=US"><img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp"></a></li>
+                                  </ul>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_data_box_detail resp-only-show">
+                        <div class="footer_detail_box_two">
+                            <div class="modcontent">
+                             <div class="footer_socail_links"><a href="https://www.facebook.com/TheSaltnPepperRestaurants/" target="blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> <a href="https://www.instagram.com/saltnpepper_official/" target="blank"><i class="fab fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/snprestaurant" target="blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></div>
+                                <div class="googles-links-holder">
+                                    <ul>
+                                      <li><a target="_blank" class="app-store" rel="noopener"><img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp"></a></li>
+                                      <li><a target="_blank" class="app-ios" rel="noopener"><img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>     
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/09a3d3d6d4.js" crossorigin="anonymous"></script>
+</body>
+</html>

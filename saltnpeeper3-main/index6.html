@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saltn-pepper</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- main div container start  -->
+    <div class="container">
+     <!-- main header start -->
+        <div class="header d-flex justify-evenly mt">
+            <div>
+              <img src="accetes/home/logo.webp" alt="logo">
+            </div>
+            <nav class="navbar">
+                <ul class="d-flex  ul-list gap">
+                    <li class="d-flex"><a href="index.html">Home</a></li>
+                    <li class="d-flex"><a href="index3.html">About us</a></li>
+                    <li class="navli"><a href="index4.html">Publications</a></li>
+                    <li class="navli"><a href="index5.html">Feedback</a></li>
+                    <li class="navli"><a href="index6.html">Get a Frenchise</a></li>
+                    <li class="navli"><a href="index7.html"><i class="fa-regular fa-user"></i></a></li>
+                    <li class="navli"><a href="index8.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="navli"><a href="index9.html"><button class="navbar-btn">Order Online<i class="fa-solid fa-arrow-right navarrow"></i></button></a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr class="hr1">
+
+        <!-- get a ferchies section area star -->
+
+        <div class="container padding_top_70 padding_bottom_70">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <div class="main-banner-heading">
+                 <h2>Get a Franchise</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <form method="POST" action="/website/franchisee_form" id="quick_franchise_form" novalidate="novalidate" class="main-franchise-form-hold">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class=""><label>Name</label>
+                                 <div class="input-group"><input required="" id="namefield" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder=" full Name" value="" type="text" tabindex="1" name="name"><label for="name" generated="true" class="error"></label></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                             <div class=""><label>Email</label><input type="email" required="" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder="absd425@gmail.com" name="email" value="" tabindex="2"></div>
+                             <!-- <input type="hidden" name="contact_us_id" value="1"> -->
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                             <div class=""><label>Phone Number</label> <input type="number" required="13" class="contact_fields w-100 margin_bottom_15 is-invalid form-control"  placeholder="teel-Num" value="" tabindex="1"><label for="name" generated="true" class="error"></label></div>
+                             
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                             <div class=""><label>Mobile Number</label><input type="number" required="11" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder="phone Number"  value="" tabindex="3"></div>
+                             
+                            </div>
+                             
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class=""><label>City</label>
+                                 <div class="input-group"><input name="city" required="" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder=" City Name " value="" type="text" tabindex="1"> <label for="name" generated="true" class="error"></label></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class=""><label>Province</label>
+                                 <div class="input-group"><input name="province" required="" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder="" value="" type="text" tabindex="1"> <label for="name" generated="true" class="error"></label></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class=""><label>Country</label>
+                                 <div class="input-group"><input name="country" required="" class="contact_fields w-100 margin_bottom_15 is-invalid form-control" placeholder="Country Name" value="" type="text" tabindex="1"> <label for="name" generated="true" class="error"></label></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="">
+                                    <div class="form-group"><label>Brands</label>
+                                        <select name="franchise" id="gender" class="form-group contact_fields" style="width: 100%;" required="">
+                                         <option value="">Which brand are you interested in</option>
+                                         <option value="Salt'n Pepper Restaurant">Salt'n Pepper Restaurant</option>
+                                         <option value="Salt'n Pepper Village">Salt'n Pepper Village</option>
+                                         <option value="Salt'n Pepper Express">Salt'n Pepper Express</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                     
+                     <div id="recaptcha" class="g-recaptcha" data-sitekey="6LdiL70mAAAAANXPbeqw7FCvpMJmrqNeYrE7qEjQ" data-callback="franchise_onSubmit" data-size="invisible"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdiL70mAAAAANXPbeqw7FCvpMJmrqNeYrE7qEjQ&amp;co=aHR0cHM6Ly9yZXN0YXVyYW50LnNhbHRucGVwcGVyLmNvbS5wazo0NDM.&amp;hl=en&amp;v=iZWPJyR27lB0cR4hL_xOX0GC&amp;size=invisible&amp;cb=kole3cfvw1we" width="256" height="60" role="presentation" name="a-p3rvcsttslm" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div> 
+                     <button class="btn btn-warning btn-color" id="submit-recaptcha">Submit</button>
+                    </form>
+                    <script>franchise_onload();</script>
+                </div>
+            </div>
+        </div>
+
+     <!-- get a ferchies section area End -->
+
+        <footer>
+            <div class="container5">
+                <div class="row d-flex justify-center">
+                    <div class="footer-img ">
+                        <div class="footer-col">
+                            <img src="accetes/home/logo.webp" alt="">
+                        </div>
+                        <div class="footer-col">
+                            <p class="para-5">The Salt’n Pepper Restaurants are an example of gracious <br>
+                             dinning,
+                             outstanding service, extraordinary classic <br> and contemporary cuisine.
+                             The restaurants have become the <br> ultimate  dinning destinations in Lahore. 
+                             From <br> family occasions to business dinner and moments of <br> the heart,
+                             this place is where unforgettable memories are made. <br>
+                            </p>
+                            <ul class="ul d-flex"> <br>
+                                <li><a href="treams-conditions"></a>Terms & Conditions</li>
+                                <li><a href="privacy-policy">Pravicy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_detail_box_heading accordion modtitle d-flex">
+                            <h3 class="footer_collapse_icons">Site Links</h3>
+                        </div>
+                        <div class="modcontent panel d-flex">
+                            <ul class="footer_detail_box_content_list d-flex">
+                               <li class="d-flex"><a href="/">Home</a></li>
+                               <li class="d-flex"><a href="/about-us">About us</a></li>
+                               <li class="d-flex"><a href="/menu/deals">Deals</a></li>
+                               <li class="d-flex"><a href="/photo-gallery">Photos</a></li>
+                               <li class="d-flex"><a href="/publications">Publications</a></li>
+                               <li class="d-flex"><a href="/franchise">Get a Franchise</a></li>
+                               <li class="d-flex"><a href="/feedback">Feedback</a></li>
+                            </ul>
+                        </div>                    
+                        
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_detail_box_heading accordion modtitle d-flex">
+                            <h3 class="footer_collapse_icons">Contact Us</h3>
+                        </div>
+                        <div class="modcontent panel">
+                            <ul class="footer_contact_list  ">
+                             <li><a href="tel:+92 42 358 509 31">+92 42 358 509 31</a></li>
+                             <li><a href="tel:+92 42 358 509 30">+92 42 358 509 30</a></li>
+                             <li><a href="tel:+92 42 111 100 678">+92 42 111 100 678</a></li>
+                             <li><a href="tel:03 111 444 610">+92 03 111 444 610</a></li>
+                             <li><a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></li>
+                             <li><a>23-Usman Block,<br>
+                                 New GardenTown,<br>
+                                  Lahore, Pakistan</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-img">
+                        <div class="footer_data_box_detail hide-responsive">
+                            <div class="footer_detail_box_two">
+                              <div class="footer_detail_box_heading accordion modtitle d-flex">
+                                <h3 class="footer_collapse_icons">Follow Us</h3>
+                              </div>
+                             <div class="modcontent panel accordion modtitle" style="display: none;">
+                                <div class="footer_socail_links"><a href="https://www.facebook.com/TheSaltnPepperRestaurants/" target="blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> <a href="https://www.instagram.com/saltnpepper_official/" target="blank"><i class="fab fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/snprestaurant" target="blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></div>
+                                <div class="googles-links-holder">
+                                  <ul>
+                                  <li><a target="_blank" class="app-store" rel="noopener" href="https://apps.apple.com/tr/app/saltn-pepper/id1631088988"><img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp"></a></li>
+                                  <li><a target="_blank" class="app-ios" rel="noopener" href="https://play.google.com/store/apps/details?id=com.hifood.saltnpepperpk&amp;hl=en_US&amp;gl=US"><img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp"></a></li>
+                                  </ul>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_data_box_detail resp-only-show">
+                        <div class="footer_detail_box_two">
+                            <div class="modcontent">
+                             <div class="footer_socail_links"><a href="https://www.facebook.com/TheSaltnPepperRestaurants/" target="blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> <a href="https://www.instagram.com/saltnpepper_official/" target="blank"><i class="fab fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/snprestaurant" target="blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></div>
+                                <div class="googles-links-holder">
+                                    <ul>
+                                      <li><a target="_blank" class="app-store" rel="noopener"><img src="https://static.tossdown.com/images/15a204d9-9623-4aea-8c7a-a4419417ee7e.webp"></a></li>
+                                      <li><a target="_blank" class="app-ios" rel="noopener"><img src="https://static.tossdown.com/images/c5c0daad-373c-4dd5-a8e8-6dcbbd142963.webp"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>     
+
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/09a3d3d6d4.js" crossorigin="anonymous"></script>
+</body>
+</html>
